@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediat HTML,css,js</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+   <!--contact Form-->
+   <form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name"name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required>
+
+    <button type="submit">submit</button>
+   </form>
+  <!--Responsive Layout-->
+  <div class="container">
+    <header>Header</header>
+    <nav>Navigation</nav>
+    <div class="grid-content">
+        <div>Sidebar</div>
+        <div>Main content</div>
+    </div>
+    <footer>Footer</footer>    
+  </div>
+  <!--Dynamic to-do list-->
+  <h2>Dynamic To-Do list</h2>
+  <input type="text" id="taskInput" placeholder="Enter task">
+  <button onclick="addTask()">Add Task</button>
+  <ul id="taskList"></ul>
+  
+  <script src="form-validation.js"></script>
+  <script src="todo-list.js"></script>
+    
+</body>
+</html>
+<!--all the code is writter and it work properly because of time of the recoding write the code in the time of off the timer-->
